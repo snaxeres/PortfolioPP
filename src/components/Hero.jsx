@@ -18,7 +18,6 @@ export default function Hero() {
           <p className="mt-4 max-w-2xl text-gray-700 dark:text-gray-200">{t('hero.bio')}</p>
           <div className="mt-6 flex items-center gap-4">
             <a href="#projects" className="inline-block px-6 py-3 rounded-lg text-white bg-gradient-to-r from-purple-600 to-cyan-400">{t('hero.cta')}</a>
-            <a href="/Enrique-Alegre-CV.pdf" download className="text-sm underline">Descargar CV</a>
           </div>
         </motion.div>
       </div>
