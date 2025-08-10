@@ -1,0 +1,8 @@
+{
+  "nav": { "home": "Home", "about": "Sobre mí", "projects": "Proyectos", "contact": "Contacto" },
+  "hero": { "title": "Enrique Alegre", "subtitle": "Fullstack · Front-end · Backend", "bio": "Apasionado por la programación y con muchas ganas de iniciarme en este mundo laboral.", "cta": "Ver proyectos" },
+  "about": { "title": "Sobre mí", "p1": "Apasionado por la programación y con ganas de iniciarme en el mundo laboral.", "availability": "Disponibilidad: Full-time / Part-time" },
+  "projects": { "title": "Proyectos", "description": "Proyectos destacados: click en cada tarjeta para ver GitHub." },
+  "contact": { "title": "Contacto", "whatsapp": "WhatsApp", "email": "Email", "linkedin": "LinkedIn" },
+  "footer": { "copyright": "© Enrique Alegre - 2025" }
+}
