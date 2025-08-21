@@ -8,6 +8,7 @@ import CardProject from './CardProject'
 
 const projects = [
   { id:1, title:'E-commerce-gym', image:'https://plus.unsplash.com/premium_photo-1754344901213-57465a7e6afc?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', tools:['Html','Css','Bootstrap','Sass'], github:'https://github.com/snaxeres/EntregaFinal-commerce' },
+  { id:2, title:'Portfolio react+vite', image:'https://plus.unsplash.com/premium_photo-1754344901213-57465a7e6afc?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', tools:['React','Css','Javascript','Librerias'], web:'https://github.com/snaxeres/PortfolioPP' },
   { id:3, title:'E-commerce-react', image:'https://picsum.photos/seed/3/800/500', tools:['React','Javascript','Librerias',], github:'https://github.com/snaxeres/EntregaFinal-React-commerce' },
   { id:4, title:'E-commerce-Backend-I', image:'https://picsum.photos/seed/4/800/500', tools:['Bcrypt','cookie-parser','express', 'mongoose', 'jsonwebtoken', 'Librerias'], github:'https://github.com/snaxeres/EntregaFinal-Back-commerce' },
   { id:5, title:'E-commerce-Backend-II', image:'https://picsum.photos/seed/5/800/500', tools:['Bcrypt','cookie-parser','express', 'mongoose', 'socket.io', 'mongodb', 'Librerias'], github:'https://github.com/snaxeres/EntregaFinal-Back-2' },
