@@ -1,32 +1,3 @@
-// import React from 'react'
-// import { FaGithub, FaLinkedin, FaWhatsapp, FaEnvelope } from 'react-icons/fa'
-// import { useTranslation } from 'react-i18next'
-
-// export default function Footer(){
-//   const { t } = useTranslation()
-//   return (
-//     <footer className="mt-16 border-t border-gray-200 dark:border-gray-800">
-//       <div className="max-w-6xl mx-auto px-6 py-8 flex flex-col md:flex-row justify-between items-center">
-//         <div className="flex items-center gap-3">
-//           <div className="w-10 h-10 rounded-full bg-gradient-to-r from-purple-600 to-cyan-400 flex items-center justify-center text-white font-bold">EA</div>
-//           <div>
-//             <div className="font-semibold">Enrique Alegre</div>
-//             <div className="text-xs text-gray-600 dark:text-gray-300">Fullstack · Frontend · Backend</div>
-//           </div>
-//         </div>
-
-//         <div className="flex items-center gap-4 mt-4 md:mt-0">
-//           <a href="https://github.com/your" target="_blank" rel="noreferrer" aria-label="github"><FaGithub/></a>
-//           <a href="https://linkedin.com/in/your" target="_blank" rel="noreferrer" aria-label="linkedin"><FaLinkedin/></a>
-//           <a href="https://wa.me/54911xxxxxxx" target="_blank" rel="noreferrer" aria-label="whatsapp"><FaWhatsapp/></a>
-//           <a href="mailto:youremail@example.com" aria-label="email"><FaEnvelope/></a>
-//         </div>
-//       </div>
-//       <div className="text-center py-3 text-xs text-gray-500 dark:text-gray-400">{t('footer.copyright')}</div>
-//     </footer>
-//   )
-// }
-
 import React from 'react'
 import { FaGithub, FaLinkedin, FaWhatsapp, FaEnvelope, FaCode, FaServer } from 'react-icons/fa'
 import { useTranslation } from 'react-i18next'
@@ -155,11 +126,11 @@ export default function Footer() {
           viewport={{ once: true }}
         >
           <div className="mb-2 md:mb-0">
-            © {new Date().getFullYear()} Enrique Alegre. {t('footer.rights') || "All rights reserved."}
+            © {new Date().getFullYear()} Enrique Alegre. {t('') || "All rights reserved."}
           </div>
           <div className="flex items-center gap-4">
-            <a href="#" className="hover:text-gray-800 dark:hover:text-gray-200 transition">{t('footer.privacy') || "Privacy Policy"}</a>
-            <a href="#" className="hover:text-gray-800 dark:hover:text-gray-200 transition">{t('footer.terms') || "Terms of Service"}</a>
+            <a href="#" className="hover:text-gray-800 dark:hover:text-gray-200 transition">{t('') || "Privacy Policy"}</a>
+            <a href="#" className="hover:text-gray-800 dark:hover:text-gray-200 transition">{t('') || "Terms of Service"}</a>
           </div>
         </motion.div>
       </div>
